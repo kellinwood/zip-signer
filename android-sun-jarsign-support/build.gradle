@@ -1,0 +1,1 @@
+version = project.property('android-sun-jarsign-support.version')

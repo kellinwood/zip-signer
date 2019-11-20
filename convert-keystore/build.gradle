@@ -1,0 +1,15 @@
+plugins {
+    id 'application'
+}
+
+application {
+    mainClassName = 'kellinwood.keystore.Convert'
+}
+
+version = project.property('convert-keystore.version')
+
+dependencies {
+    implementation 'org.bouncycastle:bcprov-jdk16:1.46'
+    testImplementation 'junit:junit:4.0'
+}
+

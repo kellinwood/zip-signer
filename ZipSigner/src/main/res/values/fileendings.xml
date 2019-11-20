@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="fileEndingImage">\.(png|gif|jpg|jpeg|bmp)$</string>
+    <string name="fileEndingAudio">\.(mp3|wav|ogg|midi)$</string>
+    <string name="fileEndingPackage">\.(apk|zip|jar|rar|gz)$</string>
+    <string name="fileEndingWebText">\.(html?|php)$</string>
+</resources>
+     

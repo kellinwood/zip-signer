@@ -1,0 +1,11 @@
+kellinwood/security/zipsigner/optional/DistinguishedNameValues.class
+kellinwood/security/zipsigner/optional/LoadKeystoreException.class
+kellinwood/security/zipsigner/optional/JKS.class
+kellinwood/security/zipsigner/optional/CertCreator.class
+kellinwood/security/zipsigner/optional/CustomKeySigner.class
+kellinwood/security/zipsigner/optional/Fingerprint.class
+kellinwood/security/zipsigner/optional/SignatureBlockGenerator.class
+kellinwood/security/zipsigner/optional/JksKeyStore.class
+kellinwood/security/zipsigner/optional/PasswordObfuscator.class
+kellinwood/security/zipsigner/optional/KeyNameConflictException.class
+kellinwood/security/zipsigner/optional/KeyStoreFileManager.class

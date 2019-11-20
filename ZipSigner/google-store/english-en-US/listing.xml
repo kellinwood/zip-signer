@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<listing>
+    <description>
+This app signs update.zip files, APK, or JAR files using your own private keys or one of the four built-in certificates (media, platform, shared, testkey).  All output is automatically zip-aligned.  ZipSigner can work with existing keystores, or you can create keystores, keys, and self-signed certificates with this app.  JKS and BKS keystores are supported.  A certificate's MD5 and SHA1 fingerprints, as well as the SHA1 key hash, can be copied from the key properties screen. Think of this app as a combination of jarsigner, signapk, keytool, and zipalign.
+
+The built-in keys and auto-selection modes will appeal to themers and modders. The ability to sign with private keys will appeal to developers.
+
+This app does not require root privileges.
+
+See the website for full documentation.
+    </description>
+</listing>

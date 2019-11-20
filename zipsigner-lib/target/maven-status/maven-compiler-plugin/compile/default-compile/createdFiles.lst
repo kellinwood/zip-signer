@@ -1,0 +1,15 @@
+kellinwood/security/zipsigner/Base64.class
+kellinwood/security/zipsigner/ZipSignature.class
+kellinwood/security/zipsigner/ResourceAdapter.class
+kellinwood/security/zipsigner/AutoKeyException.class
+kellinwood/security/zipsigner/DefaultResourceAdapter$1.class
+kellinwood/security/zipsigner/KeySet.class
+kellinwood/security/zipsigner/ZipSigner$AutoKeyObservable.class
+kellinwood/security/zipsigner/ZipSigner.class
+kellinwood/security/zipsigner/DefaultResourceAdapter.class
+kellinwood/security/zipsigner/ProgressHelper.class
+kellinwood/security/zipsigner/ProgressListener.class
+kellinwood/security/zipsigner/ProgressEvent.class
+kellinwood/security/zipsigner/ResourceAdapter$Item.class
+kellinwood/security/zipsigner/HexEncoder.class
+kellinwood/security/zipsigner/HexDumpEncoder.class

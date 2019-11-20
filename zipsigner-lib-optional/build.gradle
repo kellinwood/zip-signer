@@ -1,0 +1,8 @@
+version = project.property('zipsigner-lib-optional.version')
+
+dependencies {
+    implementation project(':kellinwood-logging-lib')
+    implementation project(':zipsigner-lib')
+    implementation 'com.madgag:scpkix-jdk15on:1.47.0.2'
+    testImplementation 'junit:junit:4.0'
+}

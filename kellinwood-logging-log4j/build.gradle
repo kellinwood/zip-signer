@@ -1,0 +1,7 @@
+version = project.property('kellinwood-logging-log4j.version')
+
+dependencies {
+    implementation project(':kellinwood-logging-lib')
+    implementation 'log4j:log4j:'+project.property('log4j.version')
+    testImplementation 'junit:junit:4.0'
+}

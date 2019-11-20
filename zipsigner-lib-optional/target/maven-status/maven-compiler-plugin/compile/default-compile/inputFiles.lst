@@ -1,0 +1,11 @@
+/home/kellinwood/zip-signer/zipsigner-lib-optional/trunk/src/main/java/kellinwood/security/zipsigner/optional/LoadKeystoreException.java
+/home/kellinwood/zip-signer/zipsigner-lib-optional/trunk/src/main/java/kellinwood/security/zipsigner/optional/JksKeyStore.java
+/home/kellinwood/zip-signer/zipsigner-lib-optional/trunk/src/main/java/kellinwood/security/zipsigner/optional/CertCreator.java
+/home/kellinwood/zip-signer/zipsigner-lib-optional/trunk/src/main/java/kellinwood/security/zipsigner/optional/KeyNameConflictException.java
+/home/kellinwood/zip-signer/zipsigner-lib-optional/trunk/src/main/java/kellinwood/security/zipsigner/optional/PasswordObfuscator.java
+/home/kellinwood/zip-signer/zipsigner-lib-optional/trunk/src/main/java/kellinwood/security/zipsigner/optional/KeyStoreFileManager.java
+/home/kellinwood/zip-signer/zipsigner-lib-optional/trunk/src/main/java/kellinwood/security/zipsigner/optional/Fingerprint.java
+/home/kellinwood/zip-signer/zipsigner-lib-optional/trunk/src/main/java/kellinwood/security/zipsigner/optional/SignatureBlockGenerator.java
+/home/kellinwood/zip-signer/zipsigner-lib-optional/trunk/src/main/java/kellinwood/security/zipsigner/optional/JKS.java
+/home/kellinwood/zip-signer/zipsigner-lib-optional/trunk/src/main/java/kellinwood/security/zipsigner/optional/DistinguishedNameValues.java
+/home/kellinwood/zip-signer/zipsigner-lib-optional/trunk/src/main/java/kellinwood/security/zipsigner/optional/CustomKeySigner.java

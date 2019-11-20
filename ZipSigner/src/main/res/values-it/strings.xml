@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Zip Signer</string>
+	
+	<string name="InputZipLabel">File di input (zip/apk/jar)</string>
+	<string name="InOutPickButtonLabel">Seleziona In/Out…</string>
+	<string name="OpenPickButtonLabel">Input…</string>
+	<string name="SaveAsPickButtonLabel">Output…</string>
+	<string name="SignedZipLabel">File di Output firmato</string>	
+	<string name="KeyModeLabel">Chiave/Modalità: </string>
+    <string name="SignatureAlgorithmLabel">Algoritmo di firma</string>
+	<string name="SignButtonLabel">Firma il file</string>
+    <string name="BrowserSelectInput">seleziona input</string>
+    <string name="BrowserSelectOutput">seleziona output</string>
+    <string name="BrowserDirectoryModeTitle">Sfoglia cartelle</string>
+    <string name="BrowserDirectoryModeMessage">Premi a lungo su un oggetto per selezionarlo come target.</string>
+    <string name="KeySelectionError">Errore selezione chiave</string>
+    <string name="KeySelectionMessage">Impossibile auto-selezionare la chiave per firmare %s</string>
+    <string name="FileSigningSuccess">Firma del file completata!</string>
+    <string name="FileSigningCancelled">Firma del file ANNULLATA!</string>
+    <string name="ExtStorageIsReadOnly">ERRORE: La memoria esterna è in sola lettura</string>
+    <string name="SigningWithKey">Firmando con chiave:</string>
+	
+	<string name="AboutZipSignerTitle">Info</string>
+	<string name="AboutZipSignerBanner">Zip Signer</string>
+	<string name="AboutZipSignerVersionTemplate">Versione: %s</string>
+	<string name="AboutZipSignerDescription">Firma zip, apk, e/o file jar.</string>
+	<string name="AboutZipSignerAuthor">Autore: Ken Ellinwood</string>
+	<string name="AboutZipSignerCopyright">Copyright 2010-2019. Tutti i diritti riservati.</string>
+	<string name="AboutFmAttribution">File browser basato su http://www.anddev.org/android_filebrowser__v20-t101.html</string>
+	<string name="AboutFmIconsAttribution">Le icone del file browser provengono da Tango Icon Gallery, http://tango.freedesktop.org</string>
+	
+	<string name="AboutZipSignerDocumentation">Visita il sito web</string>
+	<string name="AboutZipSignerDocUrlPattern">website</string>
+    <string name="AboutZipSignerDocUrl">http://sites.google.com/site/zipsigner</string>
+
+	<string name="CloseButtonLabel">Chiudi</string>
+	<string name="CancelButtonLabel">Annulla</string>
+	<string name="OkButtonLabel">OK</string>
+    <string name="FinishButtonLabel">Termina</string>
+    <string name="ContinueAnywayButtonLabel">Continua lo stesso</string>
+
+	<string name="SigningZipLabel">Firmando %s...</string>
+	
+	<!--  Built-in file manager string values -->
+    <string name="up_one_level">..</string>
+    <string name="current_dir">.</string>	
+    
+    <!--  menu string values -->
+    <string name="MenuWebSite">Sito web</string>
+    <string name="MenuManageKeys">Le mie chiavi</string>
+    <string name="MenuAbout">Informazioni</string>
+    
+    <!-- Manage Keys string values -->
+    <string name="MyKeysWebPage">http://sites.google.com/site/zipsigner/signing-with-your-own-keys</string>
+    <string name="MenuRegisterKeystore">Registra Keystore</string>
+    <string name="RememberThisPassword">Ricorda password</string>
+    <string name="EnterKeystorePassword">Immetti password Keystore</string>
+    <string name="WrongKeystorePassword">Password Keysyore errata</string>
+    <string name="UnregisterMenuItemLabel">Dissocia Keystore</string>
+    <string name="RememberPasswordMenuItemLabel">Ricorda Password</string>
+    <string name="ForgetPasswordMenuItemLabel">Dimentica Password</string>
+    <string name="CreateKeyMenuItemLabel">Crea Chiave</string>
+    <string name="RenameKeyMenuItemLabel">Rinomina</string>
+    <string name="DisplayNameMenuItemLabel">Imposta un nome</string>
+    <string name="DeleteKeyMenuItemLabel">Elimina</string>
+    <string name="PropertiesMenuItemLabel">Proprietà</string>
+    <string name="EnterKeyPassword">Immetti password Chiave</string>
+    <string name="WrongKeyPassword">Password Chiave errata</string>
+    <string name="PasswordIsRemembered">(password salvata)</string>
+    <string name="PasswordIsNotRemembered">(password non salvata)</string>
+    <string name="BrowserSelectKeystore">Seleziona file keystore</string>
+    <string name="KeystoreLoadingMessage">Caricamento keystore...</string>
+
+    <string name="MenuCreateKeystore">Nuovo Keystore</string>
+    <string name="ContinueButtonLabel">Continua</string>
+    <string name="NewKeystoreIntroTitle">Crea nuovo Keystore e nuova Chiave</string>
+    <string name="NewKeystoreIntroP1">
+        La seguente schermata ti guiderà attraverso il processo di creazione di un nuovo keystore, una private-key, e un self-signed
+        certificate che puó essere utilizzato per pubblicare le app su Google Play.  Per creare una nuova chiave nel keystore,
+        torna alla schermata precedente e premi a lungo su un file del keystore, poi seleziona "Crea Chiave" dal menu contestuale.
+        </string>
+    <string name="NewKeystoreIntroP2">
+        Questo processo crea un keystore JKS di default.  Per creare un keystore BKS, cambia l\'estensione del file keystore con \'.bks\'
+    </string>
+    <string name="NewKeystoreIntroP3">
+        Non dimenticare la password che scegli per la tua Chiave durante questo processo.  Inoltre, assicurati di fare un backup del keystore.
+        Se dimentichi la password della tua chiave o del keystore, non potrai fornire aggiornamenti per le tue app.
+    </string>
+    <string name="NewKeystoreIntroP4">
+        I valori di default mostrati nelle pagine seguenti creeranno una Chiave adatta per firmare le app.
+    </string>
+    <string name="MenuKeysHelp">Aiuto</string>
+
+    <string name="ManageKeysTitle">Le mie Chiavi</string>
+    <string name="ManageKeysHelpP1">
+        Per creare un nuovo keystore, private key, e self-signed certificate, seleziona \'Nuovo Keystore\' nel menu.
+    </string>
+    <string name="ManageKeysHelpP2">
+        Puoi lavorare con un keystore esistente selezionando \'Registra Keystore\' nel menu.  I file Keystore possono essere nei formati JKS o BKS. Limitazione attuale - solo le chiavi RSA possono essere usate per firmare i file.
+        </string>
+    <string name="ManageKeysHelpP3">
+        Puoi effettuare delle operazioni sui keystore e sulle chiavi tenendo premuto a lungo su un file. Apparirá un menu contestuale.
+    </string>
+    <string name="ManageKeysHelpP4">
+        La lista dei Keystore e delle Chiavi apparirá al posto di questo testo quando inserirai o registrerai un nuovo Keystore.
+    </string>
+
+
+    <string name="KeystorePathBrowse">Cambia cartella Keystore</string>
+    <string name="NewKeystoreFilenameLabel">Nuovo file Keystore</string>
+    <string name="KeystoreFilenameLabel">File Keystore</string>
+    <string name="KeystorePasswordLabel">Password Keystore</string>
+    <string name="SelectKeystoreDir">Seleziona cartella keystore</string>
+    <string name="FailedToUpdateKeystoreDir">aggiornamento cartella keystore fallito</string>
+    <string name="PasswordsDontMatch">Le password non corrispondono</string>
+    <string name="PasswordRequired">Password Richiesta</string>
+    <string name="KeyPasswordRequired">È necessario inserire una password per la chiave.</string>
+    <string name="OverwriteKeystoreTitle">Sovrascrivere file?</string>
+    <string name="OverwriteKeystoreFile">%s già esiste.  Sovrascrivere?</string>
+
+
+    <string name="KeyNameLabel">Nome/Alias Chiave</string>
+    <string name="KeySizeLabel">Dimensione Chiave</string>
+
+    <string-array name="KeySizeArray">
+        <item>1024</item>
+        <item>2048</item>
+        <item>3072</item>
+    </string-array>
+
+    <string name="KeyAlgorithmLabel">Tipo Chiave</string>
+    <string-array name="KeyAlgorithmArray">
+        <item>RSA</item>
+    </string-array>
+
+    <string name="KeyNameRequiredTitle">Nome Chiave Richiesto</string>
+    <string name="KeyNameRequired">È necessario inserire un nome per la chiave.</string>
+
+    <string name="KeyPasswordLabel">Password Chiave</string>
+    <string name="VerifyPasswordLabel">Verifica Password</string>
+
+    <string name="CertParametersTitle">Info Certificato</string>
+    <string name="CertValidityYearsLabel">Validità (anni)</string>
+    <string name="CertSignatureAlgorithmLabel">Algoritmo Firma Certificato</string>
+
+    <string name="DnInstructions">
+        Riempi i campi sottostanti per identificare te stesso e/o la tua azienda.
+        Questa informazione è contenuta nel certificato pubblico accoppiato con a chiave, ed è incluso nelle firme
+        generate con questa chiave.  Puoi inserire ció che vuoi nei campi seguenti, puoi anche lasciare alcuni spazi in bianco se desideri.
+    </string>
+    <string name="CommonNameLabel">Il tuo nome</string>
+    <string name="OrganizationalUnitLabel">Dipartimento/Unità</string>
+    <string name="OrganizationLabel">Compagnia/Organizzazione</string>
+    <string name="StreetLabel">Indirizzo</string>
+    <string name="StateLabel">Stato/Provincia</string>
+    <string name="LocalityLabel">Città/Località</string>
+    <string name="CountryLabel">Codice avviamento postale (CAP)</string>
+    <string name="InvalidValidity">Dati invalidi.</string>
+    <string name="InvalidValidityMessage">Inserisci un valore positivo decimale.</string>
+    <string name="MissingCertInfoTitle">Info mancanti</string>
+    <string name="MissingCertInfoMessage">Compila almeno il campo \'Il tuo nome\'.</string>
+    <string name="ShortCertValidityTitle">Avviso Validitá</string>
+    <string name="ShortCertValidityMessage">Google raccomanda un certificato valido per almeno 25 anni o più per firmare le app Android.</string>
+
+    <string name="KeyTypeLabel">Tipo Chiave</string>
+    <string name="KeyFormatLabel">Formato Chiave</string>
+
+    <string name="CreatingKeyProgressMessage">Creazione Chiave e Certificato</string>
+    <string name="SuccessMessage">SUCCESSO!</string>
+
+    <string name="ConfirmDeleteKeyTitle">Eliminare %s?</string>
+    <string name="ConfirmDeleteKeyMessage">Questo eliminerà definitivamente la chiave %s dal keystore.  Continuare?</string>
+    <string name="NameConflictTitle">Conflitto nome chiave</string>
+    <string name="NameConflictMessage">Un file chiamato %s già esiste nel keystore.</string>
+    <string name="ExpiresLabel">Scade</string>
+    <string name="SubjectDN">Subject DN</string>
+    <string name="CertIsSelfSigned">Certificato self-signed</string>
+    <string name="IssuerDN">Issuer DN</string>
+    <string name="KeystorePasswordRequired">Password Keystore richiesta </string>
+
+    <string name="BackButtonLabel">Indietro</string>
+    <string name="MD5FingerprintLabel">MD5</string>
+    <string name="SHA1FingerprintLabel">SHA1</string>
+    <string name="SHA1KeyHashLabel">SHA1 Key Hash</string>
+    <string name="CopyToClipboardMenuItemLabel">Copia negli appunti</string>
+    <string name="FingerprintsLabel">Impronte</string>
+    <string name="FingerprintCopyInstructions">Premi a lungo su un\'impronta per copiarne i valori</string>
+
+    <!-- Progress messages -->
+    <string name="LoadingCertificateAnKey">Caricamento certificato e private key</string>
+    <string name="ParsingCentralDirectory">Analizzando la cartella principale per gli input</string>
+    <string name="GeneratingManifest">Generando il manifest</string>
+    <string name="GeneratingSignatureFile">Generando file firmato</string>
+    <string name="GeneratingSignatureBlock">Generando firma blocco file </string>
+    <string name="CopyingZipEntry">Copiando valore ZIP %1$d di %2$d</string>
+
+    <!-- Error message shown if the input and output filenames are the same -->
+    <string name="InputFileSameAsOutput">Input e output hanno lo stesso nome. Seleziona un nome differente per il file d\'uscita.</string>
+    <!-- Error message shown when the key/mode="auto" and the key to use for signing can't be determined.  %s replaced with input filename. -->
+    <string name="AutoKeySelectionError">Impossibile auto-selezionare la chiave per firmare %s</string>
+
+</resources>

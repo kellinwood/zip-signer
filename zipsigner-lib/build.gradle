@@ -1,0 +1,8 @@
+version = project.property('zipsigner-lib.version')
+
+dependencies {
+    implementation project(':kellinwood-logging-lib')
+    implementation project(':zipio-lib')
+    testImplementation 'junit:junit:4.0'
+}
+

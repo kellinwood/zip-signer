@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZipSigner</string>
+	
+	<string name="InputZipLabel">Voeg bestand in (zip/apk/jar)</string>
+	<string name="InOutPickButtonLabel">Kies In/Outâ€¦</string>
+	<string name="OpenPickButtonLabel">Inputâ€¦</string>
+	<string name="SaveAsPickButtonLabel">Outputâ€¦</string>
+	<string name="SignedZipLabel">Gesingeerde Output File</string>	
+	<string name="KeyModeLabel">Key/mode: </string>
+    <string name="SignatureAlgorithmLabel">Singatuur Algorithme</string>
+	<string name="SignButtonLabel">Singeer het bestand</string>
+    <string name="BrowserSelectInput">selecteer input</string>
+    <string name="BrowserSelectOutput">selecteer output</string>
+    <string name="BrowserDirectoryModeTitle">Woordenboek Browser</string>
+    <string name="BrowserDirectoryModeMessage">Druk lang op een Item om het te selecteren als aangewezen bestand.</string>
+    <string name="KeySelectionError">Key Selectie Error</string>
+    <string name="KeySelectionMessage">Niet gelukt on auto-selecteer key voor singeren %s</string>
+    <string name="FileSigningSuccess">bestand singeren operatie gelukt!</string>
+    <string name="FileSigningCancelled">bestand singeren GEANNULEERD!</string>
+    <string name="ExtStorageIsReadOnly">ERROR: Externe opslag is geselecteerd als alleen-lezen</string>
+    <string name="SigningWithKey">Singeren met key:</string>
+	
+	<string name="AboutZipSignerTitle">over</string>
+	<string name="AboutZipSignerBanner">Zip Signer</string>
+	<string name="AboutZipSignerVersionTemplate">Versie: %s</string>
+	<string name="AboutZipSignerDescription">Sineert zip, apk, en/of jar files.</string>
+	<string name="AboutZipSignerAuthor">Auteur: Ken Ellinwood</string>
+	<string name="AboutZipSignerCopyright">Copyright 2010-2019. Alle Rechten Voorbehouden.</string>
+	<string name="AboutFmAttribution">Bestand browser bron gebaseerd op http://www.anddev.org/android_filebrowser__v20-t101.html</string>
+	<string name="AboutFmIconsAttribution">Bestand browser iconen verkregen van de Tango Icon Gallery, http://tango.freedesktop.org</string>
+	
+	<string name="AboutZipSignerDocumentation">Bezoek de Webpagina</string>
+	<string name="AboutZipSignerDocUrlPattern">Webpagina</string>
+    <string name="AboutZipSignerDocUrl">http://sites.google.com/site/zipsigner</string>
+
+	<string name="CloseButtonLabel">SLuit</string>
+	<string name="CancelButtonLabel">Annuleren</string>
+	<string name="OkButtonLabel">OK</string>
+    <string name="FinishButtonLabel">Compleer</string>
+    <string name="ContinueAnywayButtonLabel">Verder</string>
+
+	<string name="SigningZipLabel">Singeren %s...</string>
+	
+	<!--  Built-in file manager string values -->
+    <string name="up_one_level">..</string>
+    <string name="current_dir">.</string>	
+    
+    <!--  menu string values -->
+    <string name="MenuWebSite">Web Site</string>
+    <string name="MenuManageKeys">Mijn Keys</string>
+    <string name="MenuAbout">Over</string>
+    
+    <!-- Manage Keys string values -->
+    <string name="MyKeysWebPage">http://sites.google.com/site/zipsigner/signing-with-your-own-keys</string>
+    <string name="MenuRegisterKeystore">Registreer Keystore</string>
+    <string name="RememberThisPassword">Onthoud dit wachtwoord</string>
+    <string name="EnterKeystorePassword">Voer Keystore wachtwoord in</string>
+    <string name="WrongKeystorePassword">Fout Keystore wachtoord</string>
+    <string name="UnregisterMenuItemLabel">Ongeregistreerde Keystore</string>
+    <string name="RememberPasswordMenuItemLabel">Onthoud Wachtwoord</string>
+    <string name="ForgetPasswordMenuItemLabel">Vergeet Wachtwoord</string>
+    <string name="CreateKeyMenuItemLabel">Maak Key</string>
+    <string name="RenameKeyMenuItemLabel">Hernoem</string>
+    <string name="DisplayNameMenuItemLabel">Zet Display Naam</string>
+    <string name="DeleteKeyMenuItemLabel">Verwijder</string>
+    <string name="PropertiesMenuItemLabel">Properties</string>
+    <string name="EnterKeyPassword">Voer key wachtwoord in</string>
+    <string name="WrongKeyPassword">Fout Key wachtwoord</string>
+    <string name="PasswordIsRemembered">(Wachtwoord onthouden)</string>
+    <string name="PasswordIsNotRemembered">(Wachtwoord niet onthouden)</string>
+    <string name="BrowserSelectKeystore">Selecteer Keystore bestand</string>
+    <string name="KeystoreLoadingMessage">Laden van Keystore bestand...</string>
+
+    <string name="MenuCreateKeystore">Nieuwe Keystore</string>
+    <string name="ContinueButtonLabel">Verder</string>
+    <string name="NewKeystoreIntroTitle">Maak nieuwe Keystore en Key</string>
+    <string name="NewKeystoreIntroP1">
+       De volgende schermen zullen u vertellen over het proces van het maken van een nieuwe Keystore, Prive-Key, en Zelf-gesingeerde certificaten die gebruikt kunnen worden om apps te singeren voor het publiceren van apps op de google play store. Om een Nieuwe Key in een bestaande keystore, ga terug naar het vorige scherm en druk lang op een Keystore-Ingang, Selecteer dan "Maak Key" van het context menu.
+        </string>
+    <string name="NewKeystoreIntroP2">
+        Dit proces maakt een JKS keystore van normaal.  Om een BKS keystore te maken, Verander de keystore Bestand extensie naar \'.bks\'
+    </string>
+    <string name="NewKeystoreIntroP3">
+        Vergeet niet het wachtwoord dat u gekozen hebt voor de Key tijdens dit proces.  Ook, zorg ervoor Om het Keystore-Bestand te backuppen.
+        Wanneer je ooit het Key wachtwoord vergeet of het Keystore bestand kwijt raakt, je kan dan geen updates meer uitbrengen voor uw apps.
+    </string>
+    <string name="NewKeystoreIntroP4">
+        De normale waardes geshowd op het volgende scherm maken een geschikte Key voor het singeren van apps.
+    </string>
+    <string name="MenuKeysHelp">Help</string>
+
+    <string name="ManageKeysTitle">Mijn Keys</string>
+    <string name="ManageKeysHelpP1">
+        Om een nieuwe Keystore te maken, Prive key, en zelf-gesingeerd certificaat, selecteer de \'New Keystore\' menu optie.
+    </string>
+    <string name="ManageKeysHelpP2">
+        U kan werken met een bestaande Keystore door het selecteren van \'Registreer Keystore\' menu optie. Keystore bestanden kunnen
+        zijn in beide JKS of BKS formaten.  actuele limitatie - alleen RSA keys kunnen gebruikt worden om apk-bestanden te singeren.
+        </string>
+    <string name="ManageKeysHelpP3">
+        U kunt bewerkingen uitvoeren op de Keystores toetsen en door de lange drukken op items om de context menu\'s.
+    </string>
+    <string name="ManageKeysHelpP4">
+        De lijst van keystores en keys zullen laten zien worden in plaats van deze tekst wanneer je een keystore maakt of registreert.
+    </string>
+
+
+    <string name="KeystorePathBrowse">Verander Keystore Directory</string>
+    <string name="NewKeystoreFilenameLabel">Nieuwe Keystore Bestand</string>
+    <string name="KeystoreFilenameLabel">Keystore Bestand</string>
+    <string name="KeystorePasswordLabel">Keystore wachtwoord</string>
+    <string name="SelectKeystoreDir">Selecteer keystore dir</string>
+    <string name="FailedToUpdateKeystoreDir">Niet gelukt om Keystore Directory te updaten!</string>
+    <string name="PasswordsDontMatch">Wachtwoorden komen niet overeen</string>
+    <string name="PasswordRequired">Wachtwoord nodig!</string>
+    <string name="KeyPasswordRequired">Een Key wachtwoord is nodig.</string>
+    <string name="OverwriteKeystoreTitle">Overscrijven van bestand?</string>
+    <string name="OverwriteKeystoreFile">%s Bestaat al.  Overschrijven?</string>
+
+
+    <string name="KeyNameLabel">Key Naam/Alias</string>
+    <string name="KeySizeLabel">Key grootte</string>
+
+    <string-array name="KeySizeArray">
+        <item>1024</item>
+        <item>2048</item>
+        <item>3072</item>
+    </string-array>
+
+    <string name="KeyAlgorithmLabel">Key Type</string>
+    <string-array name="KeyAlgorithmArray">
+        <item>RSA</item>
+    </string-array>
+
+    <string name="KeyNameRequiredTitle">Key naam is nodig</string>
+    <string name="KeyNameRequired">Een Key naam moet ingevuld worden!.</string>
+
+    <string name="KeyPasswordLabel">Key Wachtwoord</string>
+    <string name="VerifyPasswordLabel">Verivieer Wachtwoord</string>
+
+    <string name="CertParametersTitle">Certificaat Info</string>
+    <string name="CertValidityYearsLabel">Deugdlijkheid (Jaren)</string>
+    <string name="CertSignatureAlgorithmLabel">Certificaat Signatuur Algoritme</string>
+
+    <string name="DnInstructions">
+        Vul alstublieft de volgende informatie in om uzelf te inentificeren en/of uw companie.
+        Deze informatie is verkregen In het publieke certificaat gepaard met de Key en is opgenomen in de singaturen, gemaakt met deze Key.
+        U kut wat u zelf wilt in de volgende velden invullen, en een veld invullen als u wilt.
+    </string>
+    <string name="CommonNameLabel">Uw naam</string>
+    <string name="OrganizationalUnitLabel">Afdeling/Eenheid</string>
+    <string name="OrganizationLabel">Companie/Organisatie</string>
+    <string name="StreetLabel">Straat adres</string>
+    <string name="StateLabel">Staat/Provincie</string>
+    <string name="LocalityLabel">Stad/Plaats</string>
+    <string name="CountryLabel">Land code</string>
+    <string name="InvalidValidity">Foute deugdlijkheid.</string>
+    <string name="InvalidValidityMessage">Vul een positieve decimaal in alstublieft.</string>
+    <string name="MissingCertInfoTitle">Missende Info</string>
+    <string name="MissingCertInfoMessage">vul alstublieft de \'Your Name\' veld in.</string>
+    <string name="ShortCertValidityTitle">Deugdlijkheid Waarschuwing</string>
+    <string name="ShortCertValidityMessage">Google beveeld een certificaat deugdlijkheid periode van 25 jaar of meer voor het singeren van Android apps.</string>
+
+    <string name="KeyTypeLabel">Key Type</string>
+    <string name="KeyFormatLabel">Key Formaat</string>
+
+    <string name="CreatingKeyProgressMessage">Maken van Key en Certificaat</string>
+    <string name="SuccessMessage">GELUKT!</string>
+
+    <string name="ConfirmDeleteKeyTitle">Verwijder %s?</string>
+    <string name="ConfirmDeleteKeyMessage">Dit gaat Permanent verwijderd de key %s Van de Keystore bestand.  Verder gaan?</string>
+    <string name="NameConflictTitle">Key Naam Conflict</string>
+    <string name="NameConflictMessage">Een ingang met de naam %s bestaat al in de Keystore.</string>
+    <string name="ExpiresLabel">Verloopt</string>
+    <string name="SubjectDN">Onderwerp DN</string>
+    <string name="CertIsSelfSigned">Certificaat is zelf-gesingeerd</string>
+    <string name="IssuerDN">Emittend DN</string>
+    <string name="KeystorePasswordRequired">Keystore wachtwoord is nodig!</string>
+
+    <string name="BackButtonLabel">Terug</string>
+    <string name="MD5FingerprintLabel">MD5</string>
+    <string name="SHA1FingerprintLabel">SHA1</string>
+    <string name="SHA1KeyHashLabel">SHA1 Key Hash</string>
+    <string name="CopyToClipboardMenuItemLabel">Kopieer naar plakbord</string>
+    <string name="FingerprintsLabel">Vingerafdrukken</string>
+    <string name="FingerprintCopyInstructions">Druk lang op een vingerafdruk op zijn waarde te kopieren</string>
+
+    <!-- Progress messages -->
+    <string name="LoadingCertificateAnKey">Laden van Certificaat en Key</string>
+    <string name="ParsingCentralDirectory">Parseren van de input zijn centrale directory</string>
+    <string name="GeneratingManifest">Maken van manifest</string>
+    <string name="GeneratingSignatureFile">Maken van signatuur bestand</string>
+    <string name="GeneratingSignatureBlock">maken van signatuur blok bestand</string>
+    <string name="CopyingZipEntry">Kopieren zip ingang %1$d van %2$d</string>
+
+    <!-- Error message shown if the input and output filenames are the same -->
+    <string name="InputFileSameAsOutput">Input en output bestanden zijn het zelfde. Specificeer een andere naam voor de output.</string>
+    <!-- Error message shown when the key/mode="auto" and the key to use for signing can't be determined.  %s replaced with input filename. -->
+    <string name="AutoKeySelectionError">Niet gelukt om auto-selecteren key for singeren %s</string>
+
+</resources>

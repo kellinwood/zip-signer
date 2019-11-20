@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/MenuItemCreateKeystore"
+          android:title="@string/MenuCreateKeystore"
+          android:titleCondensed="@string/MenuCreateKeystore"/>
+
+    <item android:id="@+id/MenuItemRegisterKeystore"
+          android:title="@string/MenuRegisterKeystore"
+          android:titleCondensed="@string/MenuRegisterKeystore"/>
+
+    <item android:id="@+id/MenuItemWebsite"
+          android:title="@string/MenuWebSite"
+          android:titleCondensed="@string/MenuWebSite"/>
+
+    <item android:id="@+id/MenuItemKeysHelp"
+          android:title="@string/MenuKeysHelp"
+          android:titleCondensed="@string/MenuKeysHelp"/>
+</menu>

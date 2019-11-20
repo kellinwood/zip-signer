@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<listing>
+    <description>
+这款应用可使用您自有私钥或四类内建证书 (media, platform, shared, testkey) 签名 update.zip 文件、APK 文件或 JAR 文件。所有输出项目将自动进行 Zip-Aligned 处理，ZipSigner 可使用已存在私钥库或您也可以通过该应用创建一个私钥库、密钥或自签名证书，本应用支持 JKS 以及 BKS 私钥库。您可以从密钥属性页面复制证书的 MD5/SHA1 指纹以及 SHA1 密钥哈希值。您可以将此应用当作 JarSigner/SignApk/KeyTool/ZipAlign 的整合。
+内建密钥以及自动选择模式可被主题制作者以及修正模组制作者使用，私钥签名可被开发者所使用。
+该应用无需任何 Root 授权
+详细信息请查看本站点文档
+
+中国翻译服务由吴天豪
+wth88888888@gmail.com
+    </description>
+</listing>

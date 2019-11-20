@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DO NOT TRANSLATE THESE STRINGS -->
+    <string-array name="Sha1WithRsaAlgorithmArray">
+        <item>SHA1withRSA</item>
+    </string-array>
+    <string-array name="AllShaWithRsaAlgorithmsArray">
+        <item>SHA1withRSA</item>
+        <item>SHA224withRSA</item>
+        <item>SHA256withRSA</item>
+        <item>SHA384withRSA</item>
+        <item>SHA512withRSA</item>
+    </string-array>
+</resources>
+     

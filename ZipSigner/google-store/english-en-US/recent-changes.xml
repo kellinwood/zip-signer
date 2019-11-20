@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recent>
+    <change version="3.4">
+        Russian translation provided by IDris a.k.a. MANsur, Ghost-Unit (Идрис a.k.a. Мансур)
+        https://play.google.com/store/apps/developer?id=IDris+a.k.a.+MANsur,+Ghost-Unit
+        http://tapp.ru/
+
+        If you would like to provide a translation please visit the 'Getting Involved' page on the ZipSigner website and send me an email.
+    </change>
+    <change version="3.3">
+        Fixed divide-by-zero error when signing with private keys
+        Renamed the app from "ZipSigner 2" to just "ZipSigner"
+    </change>
+    <change version="3.2">
+        Fixed the button display issue on 400x800 hdpi devices with the holo theme
+        Updated Chinese translations
+    </change>
+    <change version="3.1">
+        Fixed an issue in which zero-length entries in the zip were not zipaligned.
+        Added fingerprint and key hash display to the key properties screen.
+        UI now uses the default theme for the device.
+    </change>
+</recent>

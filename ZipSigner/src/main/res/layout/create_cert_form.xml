@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10sp"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        >
+
+        <TextView android:text="@string/CertParametersTitle"
+                  android:id="@+id/Title"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:textStyle="bold"
+                  android:layout_marginTop="10sp"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            >
+            <TextView android:text="@string/CertValidityYearsLabel"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="16sp"
+                      android:textStyle="bold"
+                />
+
+            <EditText android:text="30"
+                      android:inputType="numberDecimal"
+                      android:id="@+id/CertValidityYears"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="10sp"
+                      android:minWidth="40sp"
+                />
+
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10sp"-->
+            <!-->-->
+            <TextView android:text="@string/CertSignatureAlgorithmLabel"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="16sp"
+                      android:textStyle="bold"
+                      android:layout_marginTop="10sp"
+                />
+
+            <Spinner
+                android:id="@+id/CertSignatureAlgorithm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        <!--</LinearLayout>-->
+
+        <TextView android:text="@string/DnInstructions"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:layout_marginTop="10sp"
+            />
+
+        <TextView android:text="@string/CommonNameLabel"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:textStyle="bold"
+                  android:layout_marginTop="10sp"
+            />
+              
+        <EditText android:id="@+id/CommonName"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:inputType="textCapWords"
+                  android:maxLength="64"
+                  />
+
+        <TextView android:text="@string/OrganizationalUnitLabel"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:textStyle="bold"
+                  android:layout_marginTop="10sp"
+            />
+
+        <EditText android:id="@+id/OrganizationalUnit"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:inputType="textCapWords"
+                  android:maxLength="64"
+                  />
+
+        <TextView android:text="@string/OrganizationLabel"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:textStyle="bold"
+                  android:layout_marginTop="10sp"
+            />
+
+        <EditText android:id="@+id/Organization"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:inputType="textCapWords"
+                  android:maxLength="64"
+            />
+
+        <TextView android:text="@string/StreetLabel"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:textStyle="bold"
+                  android:layout_marginTop="10sp"
+            />
+
+        <EditText android:id="@+id/Street"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:inputType="textCapWords"
+                  android:maxLength="64"
+            />
+
+        <TextView android:text="@string/LocalityLabel"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:textStyle="bold"
+                  android:layout_marginTop="10sp"
+            />
+
+        <EditText android:id="@+id/Locality"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:inputType="textCapWords"
+                  android:maxLength="64"
+                  />
+
+        <TextView android:text="@string/StateLabel"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:textStyle="bold"
+                  android:layout_marginTop="10sp"
+            />
+
+        <EditText android:id="@+id/State"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:inputType="textCapWords"
+                  android:maxLength="64"
+            />
+
+        <TextView android:text="@string/CountryLabel"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:textStyle="bold"
+                  android:layout_marginTop="10sp"
+            />
+
+        <EditText android:id="@+id/Country"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:inputType="textCapCharacters"
+                  android:maxLength="2"/>
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="20sp"
+            >
+
+            <Button android:text="@string/CancelButtonLabel"
+                    android:id="@+id/CancelButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:minWidth="100sp"
+                />
+
+            <Button android:text="@string/FinishButtonLabel"
+                    android:id="@+id/FinishButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="20sp"
+                    android:minWidth="100sp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+

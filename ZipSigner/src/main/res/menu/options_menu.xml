@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/MenuItemShowHelp" 
+          android:title="@string/MenuWebSite" 
+          android:titleCondensed="@string/MenuWebSite"/>
+    <item android:id="@+id/MenuItemManageKeys"
+          android:title="@string/MenuManageKeys" 
+          android:titleCondensed="@string/MenuManageKeys"/>
+    <item android:id="@+id/MenuItemAbout"
+          android:title="@string/MenuAbout" 
+          android:titleCondensed="@string/MenuAbout"/>          
+</menu>

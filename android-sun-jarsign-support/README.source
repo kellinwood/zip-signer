@@ -1,0 +1,24 @@
+This project contains a modified version of Sun's security APIs.
+Specifically it contains the Sun code required to develop a working Jar/Zip/Apk
+signing application for the Android platform.
+
+The code was obtained from the OpenJDK project.  It is licensed under
+the General Public License (GPL), version 2.
+
+* Some code from sun.security.provider.X509Provider was copied into
+  sun.security.x509.X509CertImpl and X509CRLEntryImpl
+  (BEGIN,END,intern()).  This was done to eliminate the need to
+  include sun.security.provider.* as dependency.
+  
+* Some classes were removed to further reduce dependency requirements
+  (e.g., sun.security.util.Password, which reads passwords from the
+  command line).
+
+* A copy of java.util.Arrays.copyOf(byte[],int) was made to
+  sys.util.Arrays.copyOf(byte[],int). The java.util.Arrays
+  version is not available on Android.
+  
+* In most cases modified code can be found by searching for comments 
+  containing "out:kellinwood" (removed code) and/or "in:kellinwood" 
+  (added code), or "mod:kellinwood" (modified code).
+

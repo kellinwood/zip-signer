@@ -1,0 +1,36 @@
+plugins {
+    id 'application'
+}
+
+application {
+    mainClassName = 'kellinwood.zipsigner.cmdline.Main'
+
+    applicationDistribution.into('') {
+        from "."
+        include 'log4j.properties'
+    }
+
+    applicationDefaultJvmArgs += ["-Dlog4j.properties=\$APP_HOME/log4j.properties"]
+
+    startScripts {
+        doLast {
+            unixScript.text = unixScript.text.replace('\\$APP_HOME', '$APP_HOME')
+            windowsScript.text = windowsScript.text.replace('\\$APP_HOME', '%APP_HOME%') //untested
+        }
+    }
+}
+
+version = project.property('zipsigner-cmdline.version')
+
+dependencies {
+    implementation project(':kellinwood-logging-lib')
+    implementation project(':kellinwood-logging-log4j')
+    implementation project(':zipio-lib')
+    implementation project(':zipsigner-lib')
+    implementation project(':zipsigner-lib-optional')
+    implementation 'commons-cli:commons-cli:1.1'
+    implementation 'org.bouncycastle:bcprov-jdk16:1.46'
+    implementation 'log4j:log4j:'+project.property('log4j.version')
+    testImplementation 'junit:junit:4.0'
+}
+

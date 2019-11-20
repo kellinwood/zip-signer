@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZipSigner</string>
+	
+	<string name="InputZipLabel">Исходный файл (zip/apk/jar)</string>
+	<string name="InOutPickButtonLabel">Выбрать файл</string>
+	<string name="OpenPickButtonLabel">Исходный</string>
+	<string name="SaveAsPickButtonLabel">Конечный</string>
+	<string name="SignedZipLabel">Подписанный файл</string>	
+	<string name="KeyModeLabel">Ключ/Режим: </string>
+    <string name="SignatureAlgorithmLabel">Алгоритм подписи</string>
+	<string name="SignButtonLabel">Подписать файл</string>
+    <string name="BrowserSelectInput">выбор исходного</string>
+    <string name="BrowserSelectOutput">выбор конечного</string>
+    <string name="BrowserDirectoryModeTitle">Браузер каталогов</string>
+    <string name="BrowserDirectoryModeMessage">Долгое нажатие на элементе для выбора его в качестве целевой папки.</string>
+    <string name="KeySelectionError">Ошибка выбора ключа</string>
+    <string name="KeySelectionMessage">Невозможно автоматического выбрать ключ для подписи %s</string>
+    <string name="FileSigningSuccess">Операция успешно завершена!</string>
+    <string name="FileSigningCancelled">Подпись файла отменена!</string>
+    <string name="ExtStorageIsReadOnly">Ошибка: Внешний накопитель имеет атрибут только для чтения</string>
+    <string name="SigningWithKey">Подписать с ключом:</string>
+	
+	<string name="AboutZipSignerTitle">О программе</string>
+	<string name="AboutZipSignerBanner">Zip Signer</string>
+	<string name="AboutZipSignerVersionTemplate">Версия: %s</string>
+	<string name="AboutZipSignerDescription">Подписывает файлы zip, apk и/или jar.</string>
+	<string name="AboutZipSignerAuthor">Автор: Ken Ellinwood</string>
+	<string name="AboutZipSignerCopyright">Copyright 2010-2019. Все права сохранены.</string>
+	<string name="AboutFmAttribution">Файловый менеджер основан на http://www.anddev.org/android_filebrowser__v20-t101.html</string>
+	<string name="AboutFmIconsAttribution">Иконки использованы с Tango Icon Gallery, http://tango.freedesktop.org</string>
+	
+	<string name="AboutZipSignerDocumentation">Посетить сайт</string>
+	<string name="AboutZipSignerDocUrlPattern">сайт</string>
+    <string name="AboutZipSignerDocUrl">http://sites.google.com/site/zipsigner</string>
+
+	<string name="CloseButtonLabel">Закрыть</string>
+	<string name="CancelButtonLabel">Отмена</string>
+	<string name="OkButtonLabel">Ок</string>
+    <string name="FinishButtonLabel">Завершить</string>
+    <string name="ContinueAnywayButtonLabel">Все равно продолжить</string>
+
+	<string name="SigningZipLabel">Подпись %s...</string>
+	
+	<!--  Built-in file manager string values -->
+    <string name="up_one_level">..</string>
+    <string name="current_dir">.</string>	
+    
+    <!--  menu string values -->
+    <string name="MenuWebSite">Сайт</string>
+    <string name="MenuManageKeys">Мои ключи</string>
+    <string name="MenuAbout">О программе</string>
+    
+    <!-- Manage Keys string values -->
+    <string name="MyKeysWebPage">http://sites.google.com/site/zipsigner/signing-with-your-own-keys</string>
+    <string name="MenuRegisterKeystore">Регистрация хранилища ключей</string>
+    <string name="RememberThisPassword">Запомнить пароль</string>
+    <string name="EnterKeystorePassword">Введите пароль хранилища ключа</string>
+    <string name="WrongKeystorePassword">Неверный ключ</string>
+    <string name="UnregisterMenuItemLabel">Удалить регистрацию</string>
+    <string name="RememberPasswordMenuItemLabel">Запомнить пароль</string>
+    <string name="ForgetPasswordMenuItemLabel">Забыть пароль</string>
+    <string name="CreateKeyMenuItemLabel">Создать ключ</string>
+    <string name="RenameKeyMenuItemLabel">Переименовать</string>
+    <string name="DisplayNameMenuItemLabel">Установить имя</string>
+    <string name="DeleteKeyMenuItemLabel">Удалить</string>
+    <string name="PropertiesMenuItemLabel">Свойства</string>
+    <string name="EnterKeyPassword">Введите пароль ключа</string>
+    <string name="WrongKeyPassword">Неверный пароль ключа</string>
+    <string name="PasswordIsRemembered">(пароль сохранен)</string>
+    <string name="PasswordIsNotRemembered">(пароль не сохранен)</string>
+    <string name="BrowserSelectKeystore">выбор файла хранилища ключей</string>
+    <string name="KeystoreLoadingMessage">Загрузка файла хранилища ключей</string>
+
+    <string name="MenuCreateKeystore">Новое хранилище ключей</string>
+    <string name="ContinueButtonLabel">Продолжить</string>
+    <string name="NewKeystoreIntroTitle">Создать новое хранилище иключ</string>
+    <string name="NewKeystoreIntroP1">
+        Следующие экраны проведут вас через процесс создания нового хранилища, личного ключа и личного сертификата, который может использоваться для подписания приложений для публикации в Google Play. Для создания нового ключа в существующем хранилище ключей, вернитесь к предыдущему экрану и долго удерживайте на записи в хранилище, затем выберите "Создать ключ" из контекстного меню.
+        </string>
+    <string name="NewKeystoreIntroP2">
+        Этот процесс создает хранилище ключей JKS по умолчанию. Чтобы создать хранилище ключей BKS, измените расширение файла ключей на \'.bks\'
+    </string>
+    <string name="NewKeystoreIntroP3">
+        Не забывайте пароль, который вы выбрали для своего ключа в этом процессе. Кроме того, не забудьте сделать резервную копию файла хранилища ключей.
+        Если вы забудете пароль ключа или потеряете файл хранилища ключей, вы не сможете публиковать обновления для приложений.
+    </string>
+    <string name="NewKeystoreIntroP4">
+        Значения по умолчанию показанные на следующем экране будут создавать подходящие ключи для подписания приложений.
+    </string>
+    <string name="MenuKeysHelp">Помощь</string>
+
+    <string name="ManageKeysTitle">Мои ключи</string>
+    <string name="ManageKeysHelpP1">
+        Чтобы создать новое хранилище ключей, личный ключ и сертификат, выберите в меню опцию \'Новое хранилище ключей\'.
+    </string>
+    <string name="ManageKeysHelpP2">
+        Вы можете работать с существующими ключами, выбрав в меню опцию \'Регистрация хранилища ключей\'. Файлы хранилища ключей могут находиться в любом формате: JKS или BKS. Текущие ограничения - только RSA-ключи могут быть использованы для подписи файлов.
+        </string>
+    <string name="ManageKeysHelpP3">
+        Вы можете выполнять операции с хранилищами ключей и ключами, удерживая на элементе.
+    </string>
+    <string name="ManageKeysHelpP4">
+        Список хранилищ и ключей появится на месте этого текста, когда вы создадите или зарегистрируете ваше первое хранилище ключей
+    </string>
+
+
+    <string name="KeystorePathBrowse">Изменить папку хранилища ключей</string>
+    <string name="NewKeystoreFilenameLabel">Новый файл хранилища ключей</string>
+    <string name="KeystoreFilenameLabel">Файл хранилища ключей</string>
+    <string name="KeystorePasswordLabel">Пароль хранилища ключей</string>
+    <string name="SelectKeystoreDir">Выберите папку хранилища</string>
+    <string name="FailedToUpdateKeystoreDir">Ошибка при обновлении папки</string>
+    <string name="PasswordsDontMatch">Пароли не совпадают</string>
+    <string name="PasswordRequired">Требуется пароль</string>
+    <string name="KeyPasswordRequired">Требуется пароль ключа.</string>
+    <string name="OverwriteKeystoreTitle">Перезаписать файл?</string>
+    <string name="OverwriteKeystoreFile">%s уже существует.  Перезаписать?</string>
+
+
+    <string name="KeyNameLabel">Имя ключа/Псевдоним</string>
+    <string name="KeySizeLabel">Размер ключа</string>
+
+    <string-array name="KeySizeArray">
+        <item>1024</item>
+        <item>2048</item>
+        <item>3072</item>
+    </string-array>
+
+    <string name="KeyAlgorithmLabel">Тип ключа</string>
+    <string-array name="KeyAlgorithmArray">
+        <item>RSA</item>
+    </string-array>
+
+    <string name="KeyNameRequiredTitle">Требуется имя ключа</string>
+    <string name="KeyNameRequired">Требуется имя ключа.</string>
+
+    <string name="KeyPasswordLabel">Пароль ключа</string>
+    <string name="VerifyPasswordLabel">Подтвердите пароль</string>
+
+    <string name="CertParametersTitle">Информация о сертификате</string>
+    <string name="CertValidityYearsLabel">Срок годности (годы)</string>
+    <string name="CertSignatureAlgorithmLabel">Алгоритм подписи сертификата</string>
+
+    <string name="DnInstructions">
+        Пожалуйста, заполните следующую информацию, чтобы идентифицировать себя и/или вашу компании.
+        Эта информация содержится в сертификате в паре с ключом и входит в процесс подписи файла созданным ключом. Вы можете заполнить все поля, но некоторые можно оставлять пустыми.</string>
+    <string name="CommonNameLabel">Ваше имя</string>
+    <string name="OrganizationalUnitLabel">Область/Район</string>
+    <string name="OrganizationLabel">Компания/Организация</string>
+    <string name="StreetLabel">Улица</string>
+    <string name="StateLabel">Штат/Провинция</string>
+    <string name="LocalityLabel">Город/Населенный пункт</string>
+    <string name="CountryLabel">Код страны</string>
+    <string name="InvalidValidity">Неверно</string>
+    <string name="InvalidValidityMessage">Пожалуйста, введите положительное десятичное значение.</string>
+    <string name="MissingCertInfoTitle">Отсутствует информация</string>
+    <string name="MissingCertInfoMessage">Пожалуйста, заполните хотя бы поле \'Ваше имя\'.</string>
+    <string name="ShortCertValidityTitle">Предупреждение о годности</string>
+    <string name="ShortCertValidityMessage">Google рекомендует устанавливать период действия сертификата 25 лет или более для подписи программ.</string>
+
+    <string name="KeyTypeLabel">Тип ключа</string>
+    <string name="KeyFormatLabel">Формат ключа</string>
+
+    <string name="CreatingKeyProgressMessage">Создание ключа и сертификата</string>
+    <string name="SuccessMessage">Готово</string>
+
+    <string name="ConfirmDeleteKeyTitle">Удалить %s?</string>
+    <string name="ConfirmDeleteKeyMessage">
+	Это действие удалит ключ %s из файла хранилища. Продолжить?</string>
+    <string name="NameConflictTitle">Конфликт с именем ключа</string>
+    <string name="NameConflictMessage">Запись с именем %s уже существует в хранилище ключей.</string>
+    <string name="ExpiresLabel">Истекает</string>
+    <string name="SubjectDN">Данные владельца</string>
+    <string name="CertIsSelfSigned">Сертификат подписан</string>
+    <string name="IssuerDN">Данные подтверждения</string>
+    <string name="KeystorePasswordRequired">Требуется пароль хранилища ключей</string>
+
+    <string name="BackButtonLabel">Назад</string>
+    <string name="MD5FingerprintLabel">MD5</string>
+    <string name="SHA1FingerprintLabel">SHA1</string>
+    <string name="SHA1KeyHashLabel">SHA1 Key Hash</string>
+    <string name="CopyToClipboardMenuItemLabel">Копировать в буфер обмена</string>
+    <string name="FingerprintsLabel">Отпечатки пальцев</string>
+    <string name="FingerprintCopyInstructions">Удерживайте длительное время на отпечатке пальцев, чтобы скопировать его значение.</string>
+
+    <!-- Progress messages -->
+    <string name="LoadingCertificateAnKey">Загрузка сертификата и личного ключа</string>
+    <string name="ParsingCentralDirectory">Разбор центрального каталога</string>
+    <string name="GeneratingManifest">Создание файла manifest</string>
+    <string name="GeneratingSignatureFile">Создание файла подписи</string>
+    <string name="GeneratingSignatureBlock">Создание файлов блока подписи</string>
+    <string name="CopyingZipEntry">Копирование записей %1$d из %2$d</string>
+
+    <!-- Error message shown if the input and output filenames are the same -->
+    <string name="InputFileSameAsOutput">Исходный и конечный файлы одинаковы. Укажите другое имя для конечного файла.</string>
+    <!-- Error message shown when the key/mode="auto" and the key to use for signing can't be determined.  %s replaced with input filename. -->
+    <string name="AutoKeySelectionError">Невозможно автоматически выбрать ключ для подписи %s</string>
+
+</resources>

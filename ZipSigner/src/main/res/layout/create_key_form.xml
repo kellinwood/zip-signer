@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10sp"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView android:id="@+id/KeystorePasswordLabel"
+                  android:text="@string/KeystorePasswordLabel"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:textStyle="bold"
+            />
+        <EditText android:id="@+id/KeystorePassword"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:text=""
+                  android:password="true"
+            />
+
+        <TextView android:text="@string/KeyNameLabel"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:textStyle="bold"
+                  android:layout_marginTop="20sp"
+            />
+
+        <EditText android:text="cert"
+                  android:inputType="text"
+                  android:id="@+id/KeyName"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"/>
+
+
+        <TableLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10sp"
+            >
+            <TableRow>
+                <TextView android:text="@string/KeySizeLabel"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="16sp"
+                          android:textStyle="bold"
+                    />
+
+                <Spinner
+                    android:id="@+id/KeySize"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"/>
+            </TableRow>
+            <TableRow android:layout_marginTop="10sp">
+                <TextView android:text="@string/KeyAlgorithmLabel"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textSize="16sp"
+                          android:textStyle="bold"
+                    />
+
+                <Spinner
+                    android:id="@+id/KeyAlgorithm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"/>
+            </TableRow>
+        </TableLayout>
+
+
+        <TextView android:text="@string/KeyPasswordLabel"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:textStyle="bold"
+                  android:layout_marginTop="10sp"
+            />
+              
+        <EditText android:id="@+id/KeyPassword"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:inputType="text"
+                  android:password="true"/>
+
+
+        <TextView android:text="@string/VerifyPasswordLabel"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="16sp"
+                  android:textStyle="bold"
+                  android:layout_marginTop="8sp"
+            />
+
+        <EditText android:id="@+id/VerifyPassword"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:inputType="text"
+                  android:password="true"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17sp"
+            >
+
+            <Button android:text="@string/CancelButtonLabel"
+                    android:id="@+id/CancelButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:minWidth="100sp"
+                />
+
+            <Button android:text="@string/ContinueButtonLabel"
+                    android:id="@+id/ContinueButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="20sp"
+                    android:minWidth="100sp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+

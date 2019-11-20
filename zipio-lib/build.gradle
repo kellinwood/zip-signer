@@ -1,0 +1,7 @@
+version = project.property('zipio-lib.version')
+
+dependencies {
+    implementation project(':kellinwood-logging-lib')
+    testImplementation 'junit:junit:4.0'
+}
+

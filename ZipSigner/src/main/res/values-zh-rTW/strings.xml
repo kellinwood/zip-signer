@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZipSigner</string>
+	
+	<string name="InputZipLabel">輸入文件 (ZIP/APK/JAR)</string>
+	<string name="InOutPickButtonLabel">選擇輸入/輸出文件</string>	
+	<string name="OpenPickButtonLabel">輸入...</string>
+	<string name="SaveAsPickButtonLabel">輸出...</string>
+	<string name="SignedZipLabel">簽名輸出文件</string>	
+	<string name="KeyModeLabel">私鑰/模式：</string>
+    <string name="SignatureAlgorithmLabel">簽名算法</string>
+	<string name="SignButtonLabel">簽名選擇文件</string>
+    <string name="BrowserSelectInput">選擇輸入文件</string>
+    <string name="BrowserSelectOutput">選擇輸出文件</string>
+    <string name="BrowserDirectoryModeTitle">瀏覽目錄</string>
+    <string name="BrowserDirectoryModeMessage">長按項目選擇目標目錄</string>
+    <string name="KeySelectionError">選擇私鑰錯誤</string>
+    <string name="KeySelectionMessage">無法自動選擇私鑰簽名 %s</string>
+    <string name="FileSigningSuccess">文件簽名操作已成功！</string>
+    <string name="FileSigningCancelled">文件簽名操作已取消！</string>
+    <string name="ExtStorageIsReadOnly">錯誤：外部存儲空間被挂載爲只讀</string>
+    <string name="SigningWithKey">簽名私鑰：</string>
+	
+	<string name="AboutZipSignerTitle">關於</string>
+	<string name="AboutZipSignerBanner">Zip Signer</string>
+	<string name="AboutZipSignerVersionTemplate">版本： %s</string>
+	<string name="AboutZipSignerDescription">簽名 ZIP、APK、JAR 文件</string>
+	<string name="AboutZipSignerAuthor">作者：Ken Ellinwood</string>
+	<string name="AboutZipSignerCopyright">Copyright 2010-2019. All rights reserved.</string>
+	<string name="AboutFmAttribution">文件瀏覽器源碼基於 http://www.anddev.org/android_filebrowser__v20-t101.html</string>
+	<string name="AboutFmIconsAttribution">文件瀏覽器圖標從 Tango Icon Gallery 獲取，http://tango.freedesktop.org</string>
+	
+	<string name="AboutZipSignerDocumentation">訪問頁面</string>
+	<string name="AboutZipSignerDocUrlPattern">頁面</string>
+    <string name="AboutZipSignerDocUrl">http://sites.google.com/site/zipsigner</string>
+
+	<string name="CloseButtonLabel">關閉</string>
+	<string name="CancelButtonLabel">取消</string>
+	<string name="OkButtonLabel">確認</string>
+    <string name="FinishButtonLabel">完成</string>
+    <string name="ContinueAnywayButtonLabel">仍然繼續</string>
+
+	<string name="SigningZipLabel">正在簽名 %s...</string>
+	
+	<!--  Built-in file manager string values -->
+    <string name="up_one_level">..</string>
+    <string name="current_dir">.</string>	
+    
+    <!--  menu string values -->
+    <string name="MenuWebSite">作者站點</string>
+    <string name="MenuManageKeys">我的私鑰</string>
+    <string name="MenuAbout">關於</string>
+    
+    <!-- Manage Keys string values -->
+    <string name="MyKeysWebPage">http://sites.google.com/site/zipsigner/signing-with-your-own-keys</string>
+    <string name="MenuRegisterKeystore">注冊私鑰庫</string>
+    <string name="RememberThisPassword">記住庫密碼</string>
+    <string name="EnterKeystorePassword">輸入私鑰庫密碼</string>
+    <string name="WrongKeystorePassword">私鑰庫密碼錯誤</string>
+    <string name="UnregisterMenuItemLabel">私鑰庫尚未注冊</string>
+    <string name="RememberPasswordMenuItemLabel">記住密碼</string>
+    <string name="ForgetPasswordMenuItemLabel">忘記密碼</string>
+    <string name="CreateKeyMenuItemLabel">創建私鑰</string>
+    <string name="RenameKeyMenuItemLabel">重命名</string>
+    <string name="DisplayNameMenuItemLabel">設置顯示名稱</string>
+    <string name="DeleteKeyMenuItemLabel">刪除</string>
+    <string name="PropertiesMenuItemLabel">屬性</string>
+    <string name="EnterKeyPassword">輸入私鑰密碼</string>
+    <string name="WrongKeyPassword">私鑰密碼錯誤</string>
+    <string name="PasswordIsRemembered">（密碼已保存）</string>
+    <string name="PasswordIsNotRemembered">（密碼未保存）</string>
+    <string name="BrowserSelectKeystore">選擇私鑰庫文件</string>
+    <string name="KeystoreLoadingMessage">正在載入私鑰庫文件...</string>
+
+    <string name="MenuCreateKeystore">新建私鑰庫</string>
+    <string name="ContinueButtonLabel">繼續</string>
+    <string name="NewKeystoreIntroTitle">新建私鑰庫以及私鑰</string>
+    <string name="NewKeystoreIntroP1">
+        以下步驟將引導您通過新建私鑰庫、私有密鑰、自簽名證書可
+        被用於簽名應用在 Google Play 上發布。要在已有私鑰庫中新
+        建私鑰請返回上一步並長按私鑰庫項目，選擇“創建私鑰”選項。
+        </string>
+    <string name="NewKeystoreIntroP2">
+        此向導默認將創建 JKS 密鑰庫，創建一個 BKS 私鑰庫，需要更改私鑰庫文件後綴爲“.bks”
+    </string>
+    <string name="NewKeystoreIntroP3">
+        不要忘記在向導中您選擇的私鑰密碼。此外，請確認您已經備份了私鑰庫文件。
+        如果您忘記了私鑰密碼或丟失了私鑰庫文件，您將無法發布更新您的應用程序。
+    </string>
+    <string name="NewKeystoreIntroP4">
+        以下步驟將使用默認值創建一個合適的私鑰簽名應用程序。
+    </string>
+    <string name="MenuKeysHelp">幫助</string>
+
+    <string name="ManageKeysTitle">我的私鑰</string>
+    <string name="ManageKeysHelpP1">
+        創建新的私鑰庫、私有密鑰、自簽名證書，請在菜單中選擇“新建私鑰庫”。
+    </string>
+    <string name="ManageKeysHelpP2">
+        您可以通過“注冊私鑰庫”選項使用一個已存在的私鑰庫。私鑰庫文件可以
+        是 JKS 或 BKS 中的任意一種。當前限制 - 僅可使用 RSA 私鑰簽名文件。
+        </string>
+    <string name="ManageKeysHelpP3">
+        您可以通過在需要執行操作的私鑰庫以及私鑰上長按項目打開菜單。
+    </string>
+    <string name="ManageKeysHelpP4">
+        當您創建或注冊您的第一個私鑰庫後私鑰以及私鑰庫列表將顯示在此處。
+    </string>
+
+
+    <string name="KeystorePathBrowse">更改私鑰庫目錄</string>
+    <string name="NewKeystoreFilenameLabel">新建私鑰庫文件</string>
+    <string name="KeystoreFilenameLabel">私鑰庫文件</string>
+    <string name="KeystorePasswordLabel">私鑰庫密碼</string>
+    <string name="SelectKeystoreDir">選擇私鑰庫目錄</string>
+    <string name="FailedToUpdateKeystoreDir">更新私鑰庫目錄失敗</string>
+    <string name="PasswordsDontMatch">密碼錯誤</string>
+    <string name="PasswordRequired">需要密碼</string>
+    <string name="KeyPasswordRequired">需要私鑰密碼</string>
+    <string name="OverwriteKeystoreTitle">是否覆蓋文件？</string>
+    <string name="OverwriteKeystoreFile">%s 已存在，是否覆蓋？</string>
+
+
+    <string name="KeyNameLabel">私鑰名稱/別名</string>
+    <string name="KeySizeLabel">私鑰尺寸</string>
+
+    <string-array name="KeySizeArray">
+        <item>1024</item>
+        <item>2048</item>
+        <item>3072</item>
+    </string-array>
+
+    <string name="KeyAlgorithmLabel">私鑰類型</string>
+    <string-array name="KeyAlgorithmArray">
+        <item>RSA</item>
+    </string-array>
+
+    <string name="KeyNameRequiredTitle">需要私鑰名稱</string>
+    <string name="KeyNameRequired">需要填寫私鑰名稱</string>
+
+    <string name="KeyPasswordLabel">私鑰密碼</string>
+    <string name="VerifyPasswordLabel">驗證密碼</string>
+
+    <string name="CertParametersTitle">證書信息</string>
+    <string name="CertValidityYearsLabel">有效期（年）</string>
+    <string name="CertSignatureAlgorithmLabel">證書簽名算法</string>
+
+    <string name="DnInstructions">
+        請填寫以下信息以確認您本人或您公司。
+        此信息將牽制公共證書以及私鑰，並在包含在生成私鑰簽名中。您可
+        以填寫任何您所想填寫的信息在下列空格中，如果您需要可以留空。
+    </string>
+    <string name="CommonNameLabel">您的姓名</string>
+    <string name="OrganizationalUnitLabel">部門/單位</string>
+    <string name="OrganizationLabel">公司/組織</string>
+    <string name="StreetLabel">街道地址</string>
+    <string name="StateLabel">國家/省市</string>
+    <string name="LocalityLabel">城市/地區</string>
+    <string name="CountryLabel">國家代碼</string>
+    <string name="InvalidValidity">輸入無效</string>
+    <string name="InvalidValidityMessage">需填寫正數</string>
+    <string name="MissingCertInfoTitle">缺少信息</string>
+    <string name="MissingCertInfoMessage">請至少填寫“您的姓名”區域。</string>
+    <string name="ShortCertValidityTitle">有效期警告</string>
+    <string name="ShortCertValidityMessage">Google 推薦使用有效期爲 25 年或以上的簽名證書對 Android 應用程序進行簽名。</string>
+
+    <string name="KeyTypeLabel">私鑰類型</string>
+    <string name="KeyFormatLabel">私鑰格式</string>
+
+    <string name="CreatingKeyProgressMessage">創建密鑰以及證書</string>
+    <string name="SuccessMessage">成功</string>
+
+    <string name="ConfirmDeleteKeyTitle">是否刪除 %s？</string>
+    <string name="ConfirmDeleteKeyMessage">此操作將從私鑰庫文件中永久刪除私鑰 %s，是否繼續？</string>
+    <string name="NameConflictTitle">私鑰名稱沖突</string>
+    <string name="NameConflictMessage">輸入名稱 %s 在私鑰庫中已存在</string>
+    <string name="ExpiresLabel">到期</string>
+    <string name="SubjectDN">主題 DN</string>
+    <string name="CertIsSelfSigned">證書自簽名</string>
+    <string name="IssuerDN">發行 DN</string>
+    <string name="KeystorePasswordRequired">請填寫私鑰庫密碼</string>
+
+    <string name="BackButtonLabel">返回</string>
+    <string name="MD5FingerprintLabel">MD5</string>
+    <string name="SHA1FingerprintLabel">SHA1</string>
+    <string name="SHA1KeyHashLabel">SHA1 密鑰 Hash</string>
+    <string name="CopyToClipboardMenuItemLabel">複制至剪切板</string>
+    <string name="FingerprintsLabel">指紋</string>
+    <string name="FingerprintCopyInstructions">在指紋項上長按複制其值</string>
+
+    <!-- Progress messages -->
+    <string name="LoadingCertificateAnKey">正在載入證書以及私鑰</string>
+    <string name="ParsingCentralDirectory">正在解析文件核心目錄</string>
+    <string name="GeneratingManifest">正在生成文件目錄清單</string>
+    <string name="GeneratingSignatureFile">正在生成目標文件簽名</string>
+    <string name="GeneratingSignatureBlock">正在生成簽名模塊文件</string>
+    <string name="CopyingZipEntry">正在從 %1$d 複制文件至 %2$d 文件</string>
+
+    <!-- Error message shown if the input and output filenames are the same -->
+    <string name="InputFileSameAsOutput">輸入以及輸出文件同名，請給輸出文件指定一個不同的文件名稱。</string>
+    <!-- Error message shown when the key/mode="auto" and the key to use for signing can't be determined.  %s replaced with input filename. -->
+    <string name="AutoKeySelectionError">無法自動選擇密鑰簽名 %s</string>
+
+</resources>

@@ -1,0 +1,12 @@
+/home/kellinwood/zip-signer/zipsigner-lib/trunk/src/main/java/kellinwood/security/zipsigner/ZipSigner.java
+/home/kellinwood/zip-signer/zipsigner-lib/trunk/src/main/java/kellinwood/security/zipsigner/DefaultResourceAdapter.java
+/home/kellinwood/zip-signer/zipsigner-lib/trunk/src/main/java/kellinwood/security/zipsigner/ProgressEvent.java
+/home/kellinwood/zip-signer/zipsigner-lib/trunk/src/main/java/kellinwood/security/zipsigner/HexDumpEncoder.java
+/home/kellinwood/zip-signer/zipsigner-lib/trunk/src/main/java/kellinwood/security/zipsigner/Base64.java
+/home/kellinwood/zip-signer/zipsigner-lib/trunk/src/main/java/kellinwood/security/zipsigner/ResourceAdapter.java
+/home/kellinwood/zip-signer/zipsigner-lib/trunk/src/main/java/kellinwood/security/zipsigner/AutoKeyException.java
+/home/kellinwood/zip-signer/zipsigner-lib/trunk/src/main/java/kellinwood/security/zipsigner/ProgressHelper.java
+/home/kellinwood/zip-signer/zipsigner-lib/trunk/src/main/java/kellinwood/security/zipsigner/KeySet.java
+/home/kellinwood/zip-signer/zipsigner-lib/trunk/src/main/java/kellinwood/security/zipsigner/ZipSignature.java
+/home/kellinwood/zip-signer/zipsigner-lib/trunk/src/main/java/kellinwood/security/zipsigner/HexEncoder.java
+/home/kellinwood/zip-signer/zipsigner-lib/trunk/src/main/java/kellinwood/security/zipsigner/ProgressListener.java

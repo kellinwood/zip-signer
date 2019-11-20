@@ -1,0 +1,16 @@
+1.17 - Remove the dependencies on the SpongyCastle jars when not using zipsigner-lib-optional.
+
+1.16 - Fix a divide-by-zero error that occurred when signing with zipsigner-lib-optional/CustomKeySigner.
+
+1.15 - Added the ResourceAdapter interface for internationalizing error and progress messages.  See the README file
+       for instructions.
+
+1.14 - Upgraded to zipio-lib-1.8 which fixes a zipalign bug where zero-length entries in the zip weren't being aligned.
+
+1.13 - Switched from android-sun-jarsign-support to zipsigner-lib-optional for generating the PKCS#7/CMS block file. To
+       support signing with non-builtin keys, you must now include zipsigner-lib-optional and not android-sun-jarsign-support.
+       The zipsigner-lib-optional library depends on the SpongyCastle APIs (sc-light, scprov, and scpkix from
+       http://rtyley.github.com/spongycastle/). and includes support for JKS keystores and key/self-signed certificate
+       creation.
+
+1.12 - Fix Base64 encoding on newer versions of Android OS.

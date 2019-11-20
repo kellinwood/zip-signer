@@ -1,0 +1,8 @@
+version = project.property('kellinwood-logging-android.version')
+
+dependencies {
+    implementation project(':kellinwood-logging-lib')
+    implementation 'com.google.android:android:4.1.1.4'
+    testImplementation 'junit:junit:4.0'
+}
+

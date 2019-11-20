@@ -1,0 +1,28 @@
+subprojects {
+
+    repositories {
+        mavenLocal()
+        google()
+        jcenter()
+    }
+
+    if (name != 'ZipSigner') {
+        apply plugin: 'java'
+
+        sourceCompatibility = project.property('source.compatibility')
+        targetCompatibility = project.property('target.compatibility')
+
+        if (!["zipsigner-cmdline", "convert-keystore"].contains(name)) {
+            apply plugin: 'maven-publish'
+
+            publishing {
+                publications {
+                    mavenJava(MavenPublication) {
+                        groupId = 'kellinwood.android'
+                        from components.java
+                    }
+                }
+            }
+        }
+    }
+}

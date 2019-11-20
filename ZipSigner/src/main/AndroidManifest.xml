@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="kellinwood.zipsigner2"
+      android:versionName="3.5" android:versionCode="32">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--uses-sdk android:minSdkVersion="14" android:targetSdkVersion="28"/-->
+    <application android:icon="@drawable/icon"
+                 android:label="@string/app_name"
+                 android:theme="@style/DeviceDefault"
+        >
+        <activity android:name=".ZipPickerActivity"
+                  android:label="@string/app_name"
+                  android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ZipSignerActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="kellinwood.zipsigner.action.SIGN_FILE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".customkeys.ManageKeysActivity"
+                  android:label="@string/app_name"
+                  android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="kellinwood.zipsigner.action.MANAGE_KEYS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>        
+        <activity android:name=".filebrowser.AndroidFileBrowser"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="kellinwood.zipsigner.action.BROWSE_FILE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".customkeys.ManageKeysHelpActivity"
+                  android:label="@string/app_name"/>
+        <activity android:name=".customkeys.CreateKeystoreIntroActivity"
+                  android:label="@string/app_name"/>
+        <activity android:name=".customkeys.CreateKeystoreFormActivity"
+                  android:label="@string/app_name"
+                  android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".customkeys.CreateKeyFormActivity"
+                  android:label="@string/app_name"
+                  android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".customkeys.CreateCertFormActivity"
+                  android:label="@string/app_name"
+                  android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".customkeys.KeysPropertiesActivity"
+                  android:label="@string/app_name"
+                  android:windowSoftInputMode="stateHidden"/>
+    </application>
+</manifest>
