@@ -7,8 +7,8 @@
   <string name="app_name">ZipSigner</string>
   <string name="InputZipLabel">Chọn File (zip/apk/jar)</string>
   <string name="InOutPickButtonLabel">Chọn File...</string>
-  <string name="OpenPickButtonLabel">Đầu vào…</string>
-  <string name="SaveAsPickButtonLabel">Đầu ra…</string>
+  <string name="OpenPickButtonLabel">…</string>
+  <string name="SaveAsPickButtonLabel">…</string>
   <string name="SignedZipLabel">Đăng ký file đầu ra</string>
   <string name="KeyModeLabel">Key/chế độ:</string>
   <string name="SignatureAlgorithmLabel">Thuật toán chữ ký</string>

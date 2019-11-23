@@ -4,8 +4,8 @@
 	
 	<string name="InputZipLabel">Input File (zip/apk/jar)</string>
 	<string name="InOutPickButtonLabel">Choose In/Out…</string>
-	<string name="OpenPickButtonLabel">Input…</string>
-	<string name="SaveAsPickButtonLabel">Output…</string>
+	<string name="OpenPickButtonLabel">…</string>
+	<string name="SaveAsPickButtonLabel">…</string>
 	<string name="SignedZipLabel">Signed Output File</string>	
 	<string name="KeyModeLabel">Key/mode: </string>
     <string name="SignatureAlgorithmLabel">Signature Algorithm</string>

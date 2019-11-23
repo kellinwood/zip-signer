@@ -4,8 +4,8 @@
 	
 	<string name="InputZipLabel">輸入文件 (ZIP/APK/JAR)</string>
 	<string name="InOutPickButtonLabel">選擇輸入/輸出文件</string>	
-	<string name="OpenPickButtonLabel">輸入...</string>
-	<string name="SaveAsPickButtonLabel">輸出...</string>
+	<string name="OpenPickButtonLabel">…</string>
+	<string name="SaveAsPickButtonLabel">…</string>
 	<string name="SignedZipLabel">簽名輸出文件</string>	
 	<string name="KeyModeLabel">私鑰/模式：</string>
     <string name="SignatureAlgorithmLabel">簽名算法</string>

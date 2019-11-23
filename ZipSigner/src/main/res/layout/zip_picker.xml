@@ -20,19 +20,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="16sp"/>
- 
-            <Button android:text="@string/OpenPickButtonLabel"
-                    android:id="@+id/OpenPickButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="16sp"/>
- 
-            <Button android:text="@string/SaveAsPickButtonLabel"
-                    android:id="@+id/SaveAsPickButton"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="16sp"/>
- 
+
         </LinearLayout>
          
         <TextView android:text="@string/InputZipLabel"
@@ -43,18 +31,31 @@
                   android:textStyle="bold"
                   android:layout_marginTop="10sp"
             />
-           
-        <EditText android:text="/sdcard/test_unsigned_input.zip"
-                  android:id="@+id/InFileEditText"
-                  android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:inputType="textNoSuggestions"
-                  android:minWidth="500sp"
-                  android:maxWidth="500sp"
-            />
-           
- 
- 
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/InFileEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="textNoSuggestions"
+                android:minWidth="500sp"
+                android:text="/sdcard/test_unsigned_input.zip" />
+
+            <Button
+                android:id="@+id/OpenPickButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/OpenPickButtonLabel"
+                android:textSize="14sp" />
+        </LinearLayout>
+
         <TextView android:text="@string/SignedZipLabel"
                   android:id="@+id/SignedZipTextView"
                   android:layout_width="wrap_content"
@@ -63,17 +64,30 @@
                   android:textStyle="bold"
                   android:layout_marginTop="10sp"
             />
-               
-        <EditText android:text="/sdcard/test_signed.zip"
-                  android:id="@+id/OutFileEditText"
-                  android:layout_width="wrap_content"
-                  android:layout_height="wrap_content"
-                  android:inputType="textNoSuggestions"
-                  android:minWidth="500sp"
-                  android:maxWidth="500sp"
-                  />
- 
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/OutFileEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="textNoSuggestions"
+                android:maxWidth="500sp"
+                android:minWidth="500sp"
+                android:text="/sdcard/test_signed.zip" />
+
+            <Button
+                android:id="@+id/SaveAsPickButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/SaveAsPickButtonLabel"
+                android:textSize="14sp" />
+        </LinearLayout>
 
 
         <TableLayout android:layout_width="wrap_content"
@@ -125,6 +139,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20sp"
                 android:textSize="16sp"/>
-         
+
     </LinearLayout>
 </ScrollView>

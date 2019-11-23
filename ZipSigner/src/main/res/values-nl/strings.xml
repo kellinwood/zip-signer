@@ -4,8 +4,8 @@
 	
 	<string name="InputZipLabel">Voeg bestand in (zip/apk/jar)</string>
 	<string name="InOutPickButtonLabel">Kies In/Outâ€¦</string>
-	<string name="OpenPickButtonLabel">Inputâ€¦</string>
-	<string name="SaveAsPickButtonLabel">Outputâ€¦</string>
+	<string name="OpenPickButtonLabel">…</string>
+	<string name="SaveAsPickButtonLabel">…</string>
 	<string name="SignedZipLabel">Gesingeerde Output File</string>	
 	<string name="KeyModeLabel">Key/mode: </string>
     <string name="SignatureAlgorithmLabel">Singatuur Algorithme</string>
