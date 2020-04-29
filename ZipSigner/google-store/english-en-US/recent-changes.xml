@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <recent>
+    <change version="3.5">
+        Removed the Donate menu item in order to get re-instated on Google Play
+        Minor layout change to main screen
+        Updated build to  support newer OS versions
+        Additional translations:
+            Dutch provided by Daan Klein
+            Italian provided by giuskiller
+            Vietnamese provided by Th&acirc;m Sơn
+    </change>
     <change version="3.4">
         Russian translation provided by IDris a.k.a. MANsur, Ghost-Unit (Идрис a.k.a. Мансур)
         https://play.google.com/store/apps/developer?id=IDris+a.k.a.+MANsur,+Ghost-Unit

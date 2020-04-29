@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/bash -x
 
 # Script to sign ZipSigner for the Market.  This script ensures that the app is
 # signed such that the signature created with my private key replaces the signature
@@ -16,10 +16,11 @@ mkdir build/outputs/apk/release-rezip
 
 cd build/outputs/apk/release-rezip
 unzip -q ../release/ZipSigner-release-unsigned.apk
-
+rm -rf meta-info META-INF
+rm -f ../release/ZipSigner-rezipped-unsigned.apk
 find . -type f | sort | zip -q -n png ../release/ZipSigner-rezipped-unsigned.apk -@
 cd ../release
 rm -f *-signed.apk 
 rm -f *-aligned.apk 
-jarsigner -keystore ~/.keystore -sigfile CERT -signedjar ZipSigner-rezipped-signed.apk ZipSigner-rezipped-unsigned.apk kellinwood
+jarsigner -keystore ~/.keystore -sigalg SHA1withRSA -digestalg SHA1 -sigfile CERT -signedjar ZipSigner-rezipped-signed.apk ZipSigner-rezipped-unsigned.apk kellinwood
 $(find ~/Library/Android/sdk/build-tools -name "zipalign" | sort | tail -n 1) 4 ZipSigner-rezipped-signed.apk ZipSigner-rezipped-signed-aligned.apk
