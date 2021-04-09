@@ -419,8 +419,8 @@ public class ZipSigner
                 if (input != null) {
                     java.util.jar.Attributes inAttr = input.getAttributes(name); 
                     if (inAttr != null) attr = new Attributes( inAttr);
-                }*/
-                if (attr == null) attr = new Attributes();
+                }
+                if (attr == null) attr = new Attributes();*/
                 attr.putValue("SHA1-Digest", Base64.encode(md.digest()));
                 output.getEntries().put(name, attr);
             }
