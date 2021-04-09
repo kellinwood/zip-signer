@@ -414,12 +414,12 @@ public class ZipSigner
                 while ((num = data.read(buffer)) > 0) {
                     md.update(buffer, 0, num);
                 }
-                    
-                Attributes attr = null;
+                Attributes attr = new Attributes();
+                /*Attributes attr = null;
                 if (input != null) {
                     java.util.jar.Attributes inAttr = input.getAttributes(name); 
                     if (inAttr != null) attr = new Attributes( inAttr);
-                }
+                }*/
                 if (attr == null) attr = new Attributes();
                 attr.putValue("SHA1-Digest", Base64.encode(md.digest()));
                 output.getEntries().put(name, attr);
