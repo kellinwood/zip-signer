@@ -221,6 +221,17 @@ public class ZioEntry implements Cloneable {
         if (debug) log.debug(String.format("Data position: 0x%08x",dataPosition));
 
     }
+    
+    short alignTo;
+
+    private void setAlign(){
+        alignTo = filename.endsWith(".so") ? (short) 4096 : 4; // SetAlignment
+        alignBytes = new byte[alignTo];
+    }
+
+    private static int getPadding(long newOffset, int alignTo) {
+        return ((int) ((long) alignTo - (newOffset % (long) alignTo))) % alignTo;
+    }
 
     public void writeLocalEntry( ZipOutput output) throws IOException
     {
@@ -256,6 +267,8 @@ public class ZioEntry implements Cloneable {
         output.writeShort( (short)filename.length());
 
         numAlignBytes = 0;
+        
+        setAlign();
 
         // Zipalign if the file is uncompressed, i.e., "Stored", and file size is not zero.
         if (compression == 0) {
@@ -265,11 +278,13 @@ public class ZioEntry implements Cloneable {
             filename.length() +                  // plus filename
             extraData.length;                    // plus extra data
 
-            short dataPosMod4 = (short)(dataPos % 4);
+            numAlignBytes = (short) getPadding(dataPos, alignTo);
+            
+          /*short dataPosMod4 = (short)(dataPos % 4);
 
             if (dataPosMod4 > 0) {
                 numAlignBytes = (short)(4 - dataPosMod4);
-            }
+            }*/
         }
 
         
@@ -505,7 +520,10 @@ public class ZioEntry implements Cloneable {
         
         output.writeString( filename);
         output.writeBytes( extraData);
-        if (numAlignBytes > 0) output.writeBytes( alignBytes, 0, numAlignBytes);
+        if (numAlignBytes > 0){
+            setAlign();
+            output.writeBytes( alignBytes, 0, numAlignBytes);
+        }
         output.writeString( fileComment);
 
     }
