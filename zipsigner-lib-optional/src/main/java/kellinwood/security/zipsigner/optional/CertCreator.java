@@ -118,7 +118,7 @@ public class CertCreator {
             v3CertGen.setPublicKey(KPair.getPublic());
             v3CertGen.setSignatureAlgorithm(certSignatureAlgorithm);
 
-            X509Certificate PKCertificate = v3CertGen.generate(KPair.getPrivate(),"BC");
+            X509Certificate PKCertificate = v3CertGen.generate(KPair.getPrivate());//,"BC");
 
             KeySet keySet = new KeySet();
             keySet.setName(keyName);
